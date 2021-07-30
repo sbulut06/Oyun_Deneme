@@ -62,7 +62,7 @@ elif (liste.__contains__(1) and liste.__contains__(2) and liste.__contains__(3) 
 elif (liste2.__contains__(2) or liste2.__contains__(4)):
     print(" Çift var \n Extra '10' puan kazandınız!")
 
-elif (liste2.__contains__(6)):
+elif all(liste) == 1:
     print(" Tebrikler!! '100' puan kazandınz!")
 
 else:
