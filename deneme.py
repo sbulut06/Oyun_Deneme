@@ -52,6 +52,8 @@ while a < 6:
 
 print(liste2)
 
+def check(l):
+    return len(set(l)) == 1
 
 if (liste.__contains__(1) and liste.__contains__(2) and liste.__contains__(3)):
     print(" 1-2-3 var, '10' puan kazandınız!")
@@ -62,7 +64,7 @@ elif (liste.__contains__(1) and liste.__contains__(2) and liste.__contains__(3) 
 elif (liste2.__contains__(2) or liste2.__contains__(4)):
     print(" Çift var \n Extra '10' puan kazandınız!")
 
-elif all(liste) == 1:
+elif (check(liste) == True):
     print(" Tebrikler!! '100' puan kazandınz!")
 
 else:
