@@ -1,6 +1,6 @@
 from random import random
 
-sayı = round(random()*6)
+sayı = round(random() * 6)
 
 
 a = 0
