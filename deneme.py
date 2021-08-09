@@ -8,8 +8,6 @@ for x in range(6):
     sayı = np.random.randint(1, 7)
     liste.append(sayı)
 
-
-liste.sort()
 print(liste)
 
 bir = 0
