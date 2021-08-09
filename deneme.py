@@ -1,17 +1,11 @@
-from random import random
+import numpy as np
 
-sayı = round(random() * 6)
-
-
-a = 0
+x = 0
 liste=[]
 
-while a < 6:
-    a += 1
-    sayı = round(random() * 6)
-    while sayı == 0:
-        sayı = round(random() * 6)
-
+for x in range(6):
+    x += 1
+    sayı = np.random.randint(1, 7)
     liste.append(sayı)
 
 
